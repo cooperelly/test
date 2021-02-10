@@ -50,6 +50,7 @@ h3 {
   font-family: 'Indie Flower', cursive;
   color: #91684a;
   margin: auto;
+  font-size: 1.3em;
 }
 
 .top-container {
@@ -74,20 +75,28 @@ h3 {
 .bottom-container {
   font-family: 'Lato', sans-serif;
   background-color: #e1bc91;
+  padding: 5px 0 20px;
 }
 
 
 .footer-link {
   color: #91684a;
+  display: inline-block;
+  height: 10px;
+  padding: 10px;
+  text-decoration: none;
 }
 
+.footer-link:hover {
+  color: #EAF6f6
+}
 
 .middle-container{
   background-image: linear-gradient(to bottom, #ece2e1, #ede5e7, #ede9eb, #eeedee, #f0f0f0);
 }
 
 .profile-img{
-  width: 300px;
+  width: 250px;
   margin-top: 50px;
 }
 
@@ -114,4 +123,56 @@ h3 {
   position: relative;
   bottom: 40px;
 
+}
+
+.about-me{
+  line-height: 2;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-top-color: #c19277;
+  border-top-width: 7px;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.contact-paragraph{
+  padding-top: 20px;
+  line-height: 2;
+  font-weight: 600;
+}
+
+
+.BUTTON {
+   background: rgba(239, 122, 0, 0.85);
+   background-image: -webkit-linear-gradient(top, rgba(239, 122, 0, 0.85), #F2CFAA);
+   background-image: -moz-linear-gradient(top, rgba(239, 122, 0, 0.85), #F2CFAA);
+   background-image: -ms-linear-gradient(top, rgba(239, 122, 0, 0.85), #F2CFAA);
+   background-image: -o-linear-gradient(top, rgba(239, 122, 0, 0.85), #F2CFAA);
+   background-image: -webkit-gradient(to bottom, rgba(239, 122, 0, 0.85), #F2CFAA);
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   border-radius: 15px;
+   height: 13px;
+   line-height: 13px;
+   color: #FFFFFF;
+   font-family: 'Lato', sans-serif;
+   width: 107px;
+   font-size: 26px;
+   padding: 18px;
+   margin-bottom: 40px;
+   margin-top: 20px;
+   border: solid #CD7E2B 3px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.credits{
+  color: #FFFFFF;
+  margin-top: 30px;
+  font-size: 0.75rem;
 }
